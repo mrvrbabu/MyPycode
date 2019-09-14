@@ -5,4 +5,5 @@ pipeline:
     image: python:3
     commands:
       - pip install -r requirements.txt
+      - echo "Starting Unit test....."
       - python -m pytest
