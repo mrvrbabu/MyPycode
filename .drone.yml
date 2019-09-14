@@ -1,0 +1,7 @@
+# My drone file for this repo
+
+pipeline:
+  unit-test: python:3
+  commands:
+    - pip install -r requirements.txt
+    - python -m pytest
